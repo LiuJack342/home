@@ -1,0 +1,75 @@
+/*This is a cascading style sheet to format our webpage*/
+
+
+title
+{
+    color:red;
+    
+}
+
+/*The centered class is for items that are centered*/
+.centered
+{
+    text-align:center;   
+}
+
+/*The header class is for the website headers*/
+.header
+{
+    border-bottom:1px solid black;
+    padding:5px;
+    font-size:20px;
+}
+
+.header td
+{
+    border-radius:20px;
+    padding:30px;
+}
+
+.header td:hover
+{
+    background-color:red;
+    transition:0.5s;
+}
+
+
+/*These are all for the table of contents*/
+.table_of_contents
+{
+    padding:10px;
+    border:3px outset grey ;
+    height:200px;
+    width:300px;
+    font-size:25px;
+}
+
+.table_of_contents div
+{
+    padding-top:20px;
+    text-indent:50px;
+    color:inherit;
+    font-size:18px;
+}
+
+.table_of_contents a:link
+{
+    color:black;
+    text-decoration:none;
+}
+
+.table_of_contents div:hover
+{
+    background-color:blue;
+    font-size:110%;
+    transition:0.3s;
+}
+
+
+div#titled div
+{
+    position:relative;
+    top:-100px;
+    right:-200px;
+    border:10px double black;
+}
