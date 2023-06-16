@@ -11,17 +11,22 @@
 .header
 {
     border-top:1px solid black;
-    padding:5px;
+    padding:0px;
     font-size:20px;
 }
 
-
-div.header div
+div.header div.colored
 {
     border-radius:20px;
     margin:0px 10px;
     padding:30px 20px;
     float:left;
+}
+
+div.header img
+{
+    float:left;
+    border:1px solid black
 }
 
 
@@ -42,10 +47,12 @@ div.header a:link
     text-decoration:none;
 }
 
+/*A class that is capable of clearing floats*/
 .clear
 {
-    clear:left;
+    clear:both;
 }
+
 
 /*These are all for the table of contents*/
 .table_of_contents
@@ -82,6 +89,8 @@ div.header a:link
     transition:0.3s;
 }
 
+
+/*This creates the the big title part of the page*/
 div#titled
 {
     width:100%;
@@ -104,9 +113,10 @@ div#titled
     left:25%;
 }
 
+/*formats the "body content" of the page*/
 .body_tag
 {
-    margin:0px 75px 0px 75px;
+    margin:0px 75px 0px 75px
     color:black;
     font-size:20px;
     font-family: Arial, sans-serif;
@@ -114,6 +124,7 @@ div#titled
     line-height:200%;
 }
 
+/*creates interactable boxes*/
 .box
 {
     float:left;
@@ -147,13 +158,14 @@ div#titled
     text-decoration:none;
 }
 
-
+/*A class for things that float to the right*/
 .right
 {
     float:right;
     
 }
 
+/*class for images on the site*/
 .image
 {
     border:2px solid black;
