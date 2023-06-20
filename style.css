@@ -1,0 +1,245 @@
+/*This is a cascading style sheet to format our webpage*/
+
+
+/*The centered class is for items that are centered*/
+.centered
+{
+    text-align:center;   
+}
+
+/*The header class is for the website headers*/
+.header
+{
+    border-top:1px solid black;
+    padding:0px;
+    font-size:20px;
+}
+
+div.header div.colored
+{
+    border-radius:20px;
+    margin:10px 10px;
+    padding:30px 20px;
+    float:left;
+}
+
+div.header img
+{
+    float:left;
+    border:1px solid black
+}
+
+
+div.header div.selected
+{
+    background-color:lightblue;
+}
+
+
+div.header div.colored:hover
+{
+    background-color:lightblue;
+    transition:0.5s;
+}
+
+div.header a:link
+{
+    text-decoration:none;
+}
+
+/*A class that is capable of clearing floats*/
+.clear
+{
+    clear:both;
+}
+
+
+/*These are all for the table of contents*/
+.table-of-contents
+{
+    margin:25px 0px 10px 25px;
+    padding:15px 10px;
+    border:3px outset grey;
+    width:400px;
+    font-size:25px;
+    float:left;
+    box-shadow:10px 10px 5px grey;
+}
+
+.table-of-contents div
+{
+    padding-top:15px;
+    margin-bottom:10px;
+    text-indent:75px;
+    color:black;
+    font-size:19px;
+    border-radius:5px;
+}
+
+.table-of-contents a:link
+{
+    color:black;
+    text-decoration:none;
+}
+
+.table-of-contents div:hover
+{
+    background-color:lightblue;
+    font-size:22px;
+    transition:0.3s;
+}
+
+
+/*This creates the the big title of the page*/
+div.titled
+{
+    width:100%;
+    border:1px solid black;
+    background-image: url("images/RubiksCube_20Moves.png");
+    background-repeat: no-repeat;
+    background-size:100%100%;
+    padding:15% 0%;
+    font-size:20px;
+}
+
+.titled div
+{
+    border:2px solid black;
+    text-align:center;
+    width:500px;
+    padding:5%;
+    background-color:grey;
+    position:relative;
+    left:25%;
+}
+
+/*formats the "body content" of the page*/
+.body_tag
+{
+    margin:0px 75px 0px 75px;
+    color:black;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    clear: left;
+    line-height:200%;
+}
+
+/*creates interactable boxes*/
+.box
+{
+    float:left;
+    border-radius:15px;
+    border:2px solid grey;
+    font-size:20px;
+    width:500px;
+    height:300px;
+    padding:20px 0px 20px 0px;
+    margin:10px 20px 10px 20px;
+}
+
+.box p, .box h2
+{
+    text-align:center;
+    margin:5px;
+}
+
+.box img
+{
+    width:250px;
+    height:200px;
+    position:relative;
+    left:25%;
+}
+
+.boxes a:link
+{
+    color:black;
+    text-decoration:none;
+}
+
+.boxes div.box:hover
+{
+    color:red;
+    background-color:lightblue;
+    transition:0.5s;
+}
+
+/*A class for things that float to the right*/
+.right
+{
+    float:right !important;
+    
+}
+
+/*class for images*/
+.image
+{
+    border:2px solid black;
+}
+
+/*class for items that need to be indented*/
+.indented
+{
+    position: relative;
+    left:15px;
+    padding-left:20px;
+    border-left:1px solid black;
+    margin:50px 0px 50px 0px;
+}
+
+/*for styling tables*/
+table, th, td
+{
+    border:1px solid black;
+    border-radius:10px;
+    padding:5px;
+    text-align:center;
+}
+
+td, th
+{
+    padding:5px 20px 5px 20px;
+    width: 100px;
+}
+
+/*for styling tables, specific to the rubiks cube variants page*/
+.table-description
+{
+    width: 600px;
+}
+
+.table-cost
+{
+    width:250px
+}
+
+/*styles iframes*/
+iframe
+{
+    width:600px;
+    height:500px;
+}
+
+/*formats the footers of the pages*/
+.footer img
+{
+    float:left;
+    margin:20px;
+    width:200px;
+    height:75px;
+}
+
+/*formats any image citations*/
+.citation
+{
+    font-size:12px;
+    line-height:100%;
+    margin:20px
+}
+
+/*class to align text to the right*/
+.text-right
+{
+    text-align:right;
+}
+
