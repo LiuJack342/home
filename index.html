@@ -6,7 +6,7 @@
     <head>
         <meta charset = "UTF-8">
         <title>This is a website!</title>
-        <link rel = "stylesheet" type = "text/css" href = "csse.css">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
     </head>
     
     <body>
@@ -26,33 +26,48 @@
         
         <!--This main content of the page-->
         <!--This is the top part of the page-->
-        <div id = "titled">
-            <div><h1>The Rubik's cube</h1></div>
+        <div class = "titled">
+            <div><h1>The Rubik&#39;s cube</h1></div>
         </div>
+        
+        <!--Citation for title image-->
+        <p class = "citation">RubiksCube20Moves, 2016, commons.wikimedia.org, <br>
+            https://commons.wikimedia.org/wiki/File:RubiksCube_20Moves.png
+        </p>
         
         
         <!--This is for the body of the article-->
         <div class = "body_tag">
             <br><hr>
-            <img src = "https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg" width = "200px" height = "200px" class = "image right">
-
+            <!-- Image of Rubiks cube-->
+            <div class = "right">
+                <img src = "images/Rubiks_Cube_cropped.jpg" width = "200px" height = "200px" class = "image right">
+                <p class = "citation clear text-right">source: Acdx, <br>
+                    Rubik&#39;s Cube cropped, <br>
+                    2009, commons.wikimedia.org, <br>
+                    https://commons.wikimedia.org/wiki/File:Rubik%27s_Cube_cropped.jpg
+                </p>
+            </div>
+            
             <p>
-                The rubiks' cube is one of the world's most recognisable puzzles, having enjoyed hundreds of millions of sales since the little cube-shaped puzzles have first appeared in Hungarian toy stores. This six-sided puzzle has puzzled and captivated anyone who dared attempt them for the longest of times, and they remain a popular passtime as of today. This site aims to help you explore the world of this little magic cube.
+                The rubik&#39;s cube is one of the world&#39;s most recognisable puzzles, having enjoyed hundreds of millions of sales since the little cube-shaped puzzles have first appeared in Hungarian toy stores. This six-sided puzzle has puzzled and captivated anyone who dared attempt them for the longest of times, and they remain a popular passtime as of today. This site aims to help you explore the world of this little magic cube.
             </p>
         </div>
+        
         <br class = "clear"><br>
         
         <!--These are the linked boxes to other pages-->
-        
         <div class = "boxes">
+            <!--Box to the rubik's cube page-->
             <a href = "rubikscube.html">
                 <div class = "box">
                     <img src = "images/white_cube.png" alt = "white cube" width = 200px height = 200px>
-                    <h2>The rubik's cube</h2>
+                    <h2>The rubik&#39;s cube</h2>
                     <p>Read more about the Rubik's Cube</p>
                 </div>
             </a>
             
+            <!--Box to the variants page-->
             <a href = "variants.html">
                 <div class = "box">
                     <img src = "images/blue_cube.png" alt = "blue cube" width = 200px height = 200px>
@@ -63,14 +78,16 @@
             
             <br class = "clear">
             
+            <!--Box to the history page-->
             <a href = "history.html">
                 <div class = "box">
                     <img src = "images/yellow_cube.png" alt = "yellow cube" width = 200px height = 200px>
-                    <h2>The history of the Rubik's Cube</h2>
-                    <p>Read more about the history of the Rubik's Cube</p>
+                    <h2>The history of the Rubik&#39;s Cube</h2>
+                    <p>Read more about the history of the Rubik&#39;s Cube</p>
                 </div>
             </a>
             
+            <!--Box to the speedcubing page-->
             <a href = "speedcubing.html">
                 <div class = "box">
                     <img src = "images/green_cube.png" alt = "green cube" width = 200px height = 200px>
@@ -83,8 +100,9 @@
         <!--This is for the footer of the article-->
         <hr class = "clear">
         <div class = "footer">
-            <a href = ""><img src = "" alt = "html validator"></a>
-            <a href = ""><img src = "" alt = "css validator"></a>
+            <!--validator-->
+            <a href = ""><img src = "images/html5.png"></a>
+            <a href = ""><img src = "images/css.png"></a>
         </div>
         
     </body>
