@@ -1,6 +1,5 @@
 /*This is a cascading style sheet to format our webpage*/
 
-
 /*The centered class is for items that are centered*/
 .centered
 {
@@ -225,8 +224,6 @@ iframe
 {
     float:left;
     margin:20px;
-    width:200px;
-    height:75px;
 }
 
 /*formats any image citations*/
